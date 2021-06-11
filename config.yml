@@ -2,7 +2,7 @@ baseurl: "https://angry-easley-fb9544.netlify.app/"
 title: "Carl Lerche"
 theme: ghostwriter
 languageCode: en-us
-copyright: My Name
+copyright: Carl Lerche
 googleAnalytics: XXX
 disqusShortname: XXX
 pygmentsUseClasses: true
@@ -39,8 +39,8 @@ params:
   mainSections:
     - post
   intro: true
-  headline: My headline
-  description: My description
+  headline: Posts
+  description: I write about Tokio, Rust, and other software related topics.
   github: "https://github.com/carllerche"
   twitter: "https://twitter.com/carllerche"
   email: me@carllerche.com
@@ -65,18 +65,3 @@ params:
 
 permalinks:
   post: "/:year/:month/:day/:slug/"
-
-menu:
-  main:
-    - name: Blog
-      url: /
-      weight: 1
-    - name: Projects
-      url: /project/
-      weight: 2
-    - name: Contact
-      url: /page/contact/
-      weight: 3
-    - name: About
-      url: /page/about/
-      weight: 4
