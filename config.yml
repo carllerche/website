@@ -1,0 +1,82 @@
+baseurl: "https://example.com/"
+title: "Carl Lerche"
+theme: ghostwriter
+languageCode: en-us
+copyright: My Name
+googleAnalytics: XXX
+disqusShortname: XXX
+pygmentsUseClasses: true
+pygmentsCodefences: true
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    tabWidth: 2
+    style: manni
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+    useSessionStorage: false
+
+author:
+  name: Carl Lerche
+  profile: ""
+
+taxonomies:
+  tag: tags
+
+params:
+  mainSections:
+    - post
+  intro: true
+  headline: My headline
+  description: My description
+  github: "https://github.com/carllerche"
+  twitter: "https://twitter.com/carllerche"
+  email: me@carllerche.com
+  opengraph: true
+  shareTwitter: false
+  rss: true
+  shareFacebook: false
+  shareLinkedIn: false
+  dateFormat: "Mon, Jan 2, 2006"
+  exponeaJsUrl: ""
+  exponeaTarget: ""
+  exponeaToken: ""
+  exponeaTrackVisits: false
+  readingTime: true
+  readingTimeText: "Estimated reading time:"
+  fathomUrl: ""
+  fathomSiteId: ""
+  plausibleAnalytics:
+    domain: ""
+    # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
+    serverURL: ""
+
+permalinks:
+  post: "/:year/:month/:day/:slug/"
+
+menu:
+  main:
+    - name: Blog
+      url: /
+      weight: 1
+    - name: Projects
+      url: /project/
+      weight: 2
+    - name: Contact
+      url: /page/contact/
+      weight: 3
+    - name: About
+      url: /page/about/
+      weight: 4
