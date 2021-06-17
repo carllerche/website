@@ -1,6 +1,5 @@
 ---
-title: "Six ways to make async Rust easier"
-description: "Number 4 will shock you."
+title: "Exploring ways to make async Rust easier"
 slug: "six-ways-to-make-async-rust-easier"
 date: 2021-06-17
 author: Carl Lerche
